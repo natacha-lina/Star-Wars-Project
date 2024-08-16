@@ -1,0 +1,9 @@
+body {
+    background-image: url('./images/co341S.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-attachment: fixed; /* Faz a imagem de fundo ficar fixa ao rolar a página */
+    color: #f0f0f0; /* Texto em branco para contraste */
+}
+

@@ -1,0 +1,26 @@
+<div *ngIf = isDataLoaded class="results-container">
+  <button class="back-button" (click)="goBack()">&#8592; Back</button>
+  <div *ngIf="item; else notFound" class="results-list">
+    <h2>{{ item.name }}</h2>
+      <p><strong>Height:</strong> {{ item.height }} cm</p>
+      <p><strong>Weight:</strong> {{ item.mass }} kg</p>
+      <p><strong>Hair color:</strong> {{ toTitleCase(item.hair_color) }}</p>
+      <p><strong>Skin color:</strong> {{ toTitleCase(item.skin_color) }}</p>
+      <p><strong>Eye color:</strong> {{ toTitleCase(item.eye_color) }}</p>
+      <p><strong>Birth year:</strong> {{ item.birth_year }}</p>
+      <p><strong>Gender:</strong> {{ toTitleCase(item.gender) }}</p>
+    <hr />
+    <h3>Related characters</h3>
+    <ul>
+      <li *ngFor="let suggestion of suggestions">
+        {{ suggestion.name }}
+      </li>
+    </ul>
+  </div>
+
+  <ng-template #notFound>
+    <p>Character not found!</p>
+  </ng-template>
+</div>
+
+

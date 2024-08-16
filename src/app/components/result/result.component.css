@@ -1,0 +1,59 @@
+.results-container {
+  padding: 20px;
+  color: #ffe81f;
+  background-color: #000;
+  min-height: 100vh;
+  font-family: 'Star Jedi', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.results-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.result-item {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.result-item:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.back-button {
+  background-color: #ffe81f;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #fff;
+}
+

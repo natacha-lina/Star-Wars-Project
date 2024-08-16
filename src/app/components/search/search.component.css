@@ -1,0 +1,76 @@
+/* Estilo Geral */
+body {
+  background-color: #000;
+  color: #ffe81f;
+  font-family: 'Star Jedi', sans-serif; /* Fonte temática de Star Wars */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Container da Pesquisa */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('/src/images/images.png'); /* Use uma imagem de fundo temática */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+/* Barra de Pesquisa */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  margin-right: 20px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ffe81f;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #fff;
+}
+
+/* Resultados da Pesquisa */
+.results-container {
+  margin-top: 20px;
+  color: #fff;
+}
+
+/* Estilo adicional */
+input::placeholder {
+  color: #000;
+}
+
+.search-input:focus {
+  outline: 2px solid #ffe81f;
+}
+

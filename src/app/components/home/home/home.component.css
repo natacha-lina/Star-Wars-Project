@@ -1,0 +1,36 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: url('/src/images/images.png')!important;
+    background-size: cover;
+    background-position: center;
+    color: #ffe81f;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .explore-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #ffe81f;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #fff;
+  }

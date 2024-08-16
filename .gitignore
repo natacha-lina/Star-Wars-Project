@@ -1,0 +1,6 @@
+# Diretórios de dependências
+node_modules/
+
+# Outros Diretórios
+.vscode
+.angular
